@@ -2,6 +2,8 @@
 
 You have a folder of static files. You need to serve them, but your site is load-balanced or might be in the future... so you can't just use the local filesystem. `cloud-static` to the rescue.
 
+> Note: promises and/or `await` are not mandatory. Each of the methods optionally takes a callback instead.
+
 ```javascript
 const cloudStatic = require('cloud-static')();
 
