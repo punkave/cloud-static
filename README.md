@@ -19,7 +19,7 @@ await cloudStatic.syncFolder('/my/local/folder', '/my/uploadfs/path');
 // Available on the web here, append uploadfs paths
 // to individual files as needed
 
-const baseUrl = cloudStatic.getUrl();
+const baseUrl = cloudStatic.getUrl('');
 
 // Changes have been made... sync again to update files,
 // and to orphan removed files

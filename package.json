@@ -23,15 +23,17 @@
   },
   "homepage": "https://github.com/punkave/cloud-static#readme",
   "dependencies": {
-    "Promise": "^1.0.5",
     "async": "^2.6.1",
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.10",
+    "regexp-quote": "0.0.0"
+  },
+  "devDependencies": {
     "express": "^4.16.3",
     "express-static": "^1.2.5",
-    "lodash": "^4.17.10",
     "mongodb": "^3.1.0",
-    "regexp-quote": "0.0.0",
-    "request-promise": "^4.2.2",
+    "uploadfs": "^1.10.2",
     "rimraf": "^2.6.2",
-    "uploadfs": "^1.10.2"
+    "request-promise": "^4.2.2"
   }
 }
