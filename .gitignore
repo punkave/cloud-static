@@ -1,0 +1,9 @@
+package-lock.json
+test/temp
+test/public
+npm-debug.log
+*.DS_Store
+*.npmignore
+node_modules
+# vim swp files
+.*.sw*
