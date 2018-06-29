@@ -1,7 +1,7 @@
 {
   "name": "cloud-static",
   "version": "1.0.0",
-  "description": "Sync and update folders of static content to your local or cloud-based storage via uploadfs, retaining metadata in MongoDB to eliminate latency",
+  "description": "Sync and update folders of web-accessible static content to your local or cloud-based storage via uploadfs, retaining metadata in MongoDB to eliminate latency",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
